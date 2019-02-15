@@ -53,6 +53,11 @@ namespace Console_Chess
                         Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
                 }
             }
             catch (Exception e)
